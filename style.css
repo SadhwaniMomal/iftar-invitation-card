@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-image: linear-gradient(to top right, #8b5cf6, #ec4899);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: center !important;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  overflow: hidden;
+}
+.item {
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  left: calc(50% - 110px);
+  top: 0;
+}
+#next,
+#prev {
+  position: absolute;
+  top: 40%;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: xxx-large;
+  font-family: monospace;
+  font-weight: bold;
+  left: 400px;
+}
+#next {
+  left: unset;
+  right: 400px;
+}
+
+.item img {
+  height: 50%;
+  margin: -17px;
+}
+
+.item #slide {
+  margin-top: 50px;
+}
+
+.item p {
+  margin-top: 25px;
+}
+
+.item #s3 {
+  width: 230px;
+}
+
+.item h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: medium;
+}
+
+.item h2 {
+  text-align: center;
+}
